@@ -1,0 +1,124 @@
+.Calculator{
+    width: 330px;
+    border: 8px solid grey;
+    border-radius: 5px 20px 30px 70px;
+    margin: auto;
+    height: 500px;
+    background-color: rgb(65, 63, 63);
+}
+#cal-Input{
+    width: 325px;
+    height: 100px;
+    background-color: rgb(199, 198, 198);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    outline:none;
+    border: none;
+    border-radius: 2px 10px 2px 2px;
+    margin-bottom: 40px;
+}
+.cal-Btn{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+   background-color: rgb(65, 63, 63); 
+   border-radius: 100%;
+    padding: 10px;
+    margin: 10px ;
+    border: none;
+    outline:none;
+}
+
+.cal-Btn:active{
+    background:olive;
+}
+
+
+.btnX{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: honeydew;
+    outline:none;
+}
+.btnX:focus{
+    background:rgb(194, 9, 9);
+
+}
+.btndiv{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    outline: none;
+    background-color: burlywood;
+}
+.btndiv:focus{
+    background:rgb(194, 9, 9);
+
+}
+.btnminus{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    outline: none;
+    background-color: royalblue;
+}
+.btnminus:focus{
+    background:rgb(194, 9, 9);
+
+}
+.btnplus{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(197, 69, 69);
+}
+.btnplus:focus{
+    background:rgb(194, 9, 9);
+
+}
+.btnequal{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    background-color: rgb(223, 217, 217);
+}
+.btnequal:focus{
+    background:rgb(194, 9, 9);
+
+}
+.btnclear{
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    background-color: rgb(129, 29, 29);
+}
+.btnclear:focus{
+    background:rgb(194, 9, 9);
+
+}

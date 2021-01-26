@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="Calculator">
+        <div>
+            <input type="text" id="cal-Input">
+        </div>
+        <div>
+            <button onclick="getData('7')" class="cal-Btn">7</button>
+            <button onclick="getData('8')" class="cal-Btn">8</button>
+            <button onclick="getData('9')" class="cal-Btn">9</button>
+            <button onclick="getData('*')"  class="btnX">X</button>
+        </div>
+        <div>
+            <button onclick="getData('4')" class="cal-Btn">4</button>
+            <button onclick="getData('5')" class="cal-Btn">5</button>
+            <button onclick="getData('6')" class="cal-Btn">6</button>
+            <button onclick="getData('/')" class="btndiv">/</button>
+        </div>
+        <div>
+            <button onclick="getData('1')" class="cal-Btn">1</button>
+            <button onclick="getData('2')" class="cal-Btn">2</button>
+            <button onclick="getData('3')" class="cal-Btn">3</button>
+            <button onclick="getData('-')" class="btnminus">-</button>
+        </div>
+        <div>
+            <button onclick="clearScreen()" class="btnclear">C</button>
+            <button onclick="getData('0')" class="cal-Btn">0</button>
+            <button onclick="getAns()" class="btnequal">=</button>
+            <button onclick="getData('+')" class="btnplus">+</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
